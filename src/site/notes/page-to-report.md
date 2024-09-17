@@ -36,4 +36,18 @@ Strapi предоставляет встроенный **плагин Upload**, 
 
 # Кастомная валидация
 Реализуема в полном объеме согласно изначальному проекту. Корректировки не требуются
-![Снимок экрана 2024-09-17 в 10.33.00.png](/img/user/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-09-17%20%D0%B2%2010.33.00.png)
+# Реализация
+1. С помощью yarn (который я установил через BREW) и команды `yarn create strapi-app my-strapi-project --quickstart` начинаем скрипт установки Strapi
+2. Регистрируемся с помощью GitHub
+3. Переходим в аудиторию с папкой моего проекта
+4. Вводим команду Yarn develop
+![Pasted image 20240917113755.png](/img/user/Pasted%20image%2020240917113755.png)
+5. Через Localhost через порт 1327 попадаем в StrapiDashboard ![Pasted image 20240917113824.png](/img/user/Pasted%20image%2020240917113824.png)
+6. Переходим в Content-Type Builder. Создаем сущность User1 и создаем поля. Все скриншоты ниже прокомментированы 
+![Pasted image 20240917113850.png](/img/user/Pasted%20image%2020240917113850.png)
+Создаем сущности, с которыми связан User1, чтобы в поле можно было показать их взаимосвязь.
+![Pasted image 20240917113920.png](/img/user/Pasted%20image%2020240917113920.png)
+Создали поля, показали взаимосвязь
+![Pasted image 20240917114046.png](/img/user/Pasted%20image%2020240917114046.png)
+Для поля username указываем обязательно уникальность и обязательное заполнение
+![](file:////Users/apple/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image001.png)Аналогично для поля e-mail
