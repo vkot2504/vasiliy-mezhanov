@@ -40,7 +40,7 @@ Strapi предоставляет встроенный **плагин Upload**, 
 1. С помощью yarn (который я установил через BREW) и команды `yarn create strapi-app my-strapi-project --quickstart` начинаем скрипт установки Strapi
 2. Регистрируемся с помощью GitHub
 3. Переходим в аудиторию с папкой моего проекта
-4. Вводим команду Yarn develop
+4. Вводим команду  `yarn develop`
 ![Pasted image 20240917113755.png](/img/user/Pasted%20image%2020240917113755.png)
 5. Через Localhost через порт 1327 попадаем в StrapiDashboard ![Pasted image 20240917113824.png](/img/user/Pasted%20image%2020240917113824.png)
 6. Переходим в Content-Type Builder. Создаем сущность User1 и создаем поля. Все скриншоты ниже прокомментированы 
@@ -50,4 +50,5 @@ Strapi предоставляет встроенный **плагин Upload**, 
 Создали поля, показали взаимосвязь
 ![Pasted image 20240917114046.png](/img/user/Pasted%20image%2020240917114046.png)
 Для поля username указываем обязательно уникальность и обязательное заполнение
-![](file:////Users/apple/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image001.png)Аналогично для поля e-mail
+![Pasted image 20240917114454.png](/img/user/Pasted%20image%2020240917114454.png)
+Аналогично для поля e-mail
