@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/page-to-report/"}
+{"dg-publish":true,"permalink":"/page-to-report/","tags":["gardenEntry"]}
 ---
 
 # Общие положения и идея

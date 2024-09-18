@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/homework/pattern/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/homework/pattern/"}
 ---
 
 ```
