@@ -42,7 +42,7 @@ Strapi предоставляет встроенный **плагин Upload**, 
 3. Переходим в аудиторию с папкой моего проекта
 4. Вводим команду  `yarn develop`
 ![Pasted image 20240917113755.png](/img/user/Pasted%20image%2020240917113755.png)
-5. Через Localhost через порт 1327 попадаем в StrapiDashboard ![Pasted image 20240917113824.png](/img/user/Pasted%20image%2020240917113824.png)
+5. Через Localhost через порт 1337 попадаем в StrapiDashboard ![Pasted image 20240917113824.png](/img/user/Pasted%20image%2020240917113824.png)
 6. Переходим в Content-Type Builder. Создаем сущность User1 и создаем поля. Все скриншоты ниже прокомментированы 
 ![Pasted image 20240917113850.png](/img/user/Pasted%20image%2020240917113850.png)
 Создаем сущности, с которыми связан User1, чтобы в поле можно было показать их взаимосвязь.
