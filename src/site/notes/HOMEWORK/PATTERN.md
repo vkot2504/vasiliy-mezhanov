@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/homework/pattern/"}
 ---
 
-```
+ ``` python
 from datetime import datetime
 
 import re
