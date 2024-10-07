@@ -147,21 +147,6 @@ def get_db():
 
 ### CRUD.PY
 Содержит функции для создания, чтения, обновления и удаления записей в БД.
-``` python
-from sqlalchemy.orm import Session
-from models import User1
-from schemas import UserCreate
-
-def create_user(db: Session, user: UserCreate):
-    db_user = User1(username=user.username, email=user.email, password=user.password)
-    db.add(db_user)
-    db.commit()
-    db.refresh(db_user)
-    return db_user
-
-def get_user(db: Session, user_id: int):
-    return db.query(User1).filter(User1.id == user_id).first()
-    ```
 ## Реализация и проверка
 Соответственно, запускаем код уже известной командой  uvicorn app:app --reload  и переходим по 127.0.0.1:8000 , попадаем в ошибку, но нам, конечно же интереснее 127.0.0.1/docs
 ![Pasted image 20241007232429.png](/img/user/Pasted%20image%2020241007232429.png)
