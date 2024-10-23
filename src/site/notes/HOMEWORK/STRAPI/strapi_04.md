@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/homework/strapi/strapi-04/"}
 ---
 
+
+# https://github.com/vkot2504/API
 # Реализация проекта, созданного в STRAPI через FastApi
 
 ## Установка FastApi и Uvicorn
