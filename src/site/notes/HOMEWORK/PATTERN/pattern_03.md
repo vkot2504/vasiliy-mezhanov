@@ -50,7 +50,7 @@ queue.enqueue('tre')
 
 while queue.count():
     print(queue.dequeue())
-    ```
+```
 
 # 3
  ``` python 
